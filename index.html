@@ -1,1 +1,108 @@
-v�-ʗ��ia�iejx
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101d1b">
+  <meta name="description" content="Portafolio y CV de Juan José Gutiérrez, estudiante de Ingeniería de Software y desarrollador web en formación.">
+  <title>Juan José Gutiérrez — Portafolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="Juan José Gutiérrez, inicio"><span class="brand-mark">JG</span><span>Juan José<br><strong>Gutiérrez</strong></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menú"><span></span><span></span></button>
+      <nav id="main-nav" class="main-nav" aria-label="Navegación principal">
+        <a href="#proyectos">Proyectos</a><a href="#experiencia">Experiencia</a><a href="#perfil">Perfil</a><a href="#contacto">Contacto</a>
+        <a class="nav-cta" href="mailto:juanjose200013@gmail.com">Hablemos <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero section-dark" id="inicio">
+      <div class="hero-grid container">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Disponible para oportunidades</p>
+          <h1>Hola, soy<br><span>Juan José.</span></h1>
+          <p class="hero-role">Estudiante de Ingeniería de Software<br><span>Desarrollo frontend y proyectos web.</span></p>
+          <p class="hero-intro">Creo sitios web y herramientas pequeñas para resolver necesidades concretas. Aquí puedes conocer mis proyectos, formación y experiencia.</p>
+          <div class="hero-actions"><a class="button button-lime" href="#proyectos">Ver proyectos <span aria-hidden="true">↓</span></a><a class="text-link light-link" href="#perfil">Conocer mi perfil <span aria-hidden="true">↗</span></a></div>
+          <div class="hero-social"><a href="https://github.com/JuanG0507" target="_blank" rel="noreferrer">GitHub <span>↗</span></a><a href="https://www.linkedin.com/in/juan-jose-gutierrez-5b166b252/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a><span class="hero-location">FORMACIÓN EN CURSO</span></div>
+        </div>
+        <div class="hero-art">
+          <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+          <div class="art-card"><span class="art-card-label">PORTAFOLIO / 2026</span><img class="art-avatar" src="https://avatars.githubusercontent.com/u/182300200?v=4" alt="Foto de Juan José Gutiérrez"><span class="art-card-caption">Código con intención.<br>Diseño con propósito.</span><span class="art-card-line"></span></div>
+          <span class="art-tag tag-top">{ creatividad }</span><span class="art-tag tag-bottom">HTML · CSS · JS · PYTHON</span>
+          <span class="art-spark spark-one">✳</span><span class="art-spark spark-two">✳</span>
+        </div>
+        <div class="hero-footer"><span>PORTAFOLIO PERSONAL</span><span>DESPLAZA PARA EXPLORAR <span aria-hidden="true">↓</span></span></div>
+      </div>
+    </section>
+
+    <section class="projects-section section-light" id="proyectos">
+      <div class="container">
+        <div class="section-heading">
+          <div><h2>Proyectos que<br><em>me representan.</em></h2></div>
+          <p class="section-intro">Proyectos personales y académicos donde practico desarrollo web, interfaces, interacción y programación con Python.</p>
+        </div>
+        <div class="project-toolbar"><p>Proyectos destacados</p><div class="filters" role="group" aria-label="Filtrar proyectos"><button class="filter-button is-active" data-filter="all" type="button">Todos</button><button class="filter-button" data-filter="web" type="button">Desarrollo web</button><button class="filter-button" data-filter="python" type="button">Python</button></div></div>
+        <div class="project-grid">
+          <article class="project-card project-feature" data-category="web">
+            <div class="project-visual"><img class="project-shot" src="assets/projects/festival-musica.jpg" alt="Captura del sitio Festival de Música, con su portada y programación" loading="lazy" decoding="async"></div>
+            <div class="project-info"><div><p class="project-type">Sitio web · Diseño adaptable</p><h3>Festival de Música</h3><p class="project-desc">Sitio adaptable para presentar un festival, organizar su programación y compartir información del evento.</p><div class="tech-list"><span>HTML</span><span>SCSS</span><span>JavaScript</span><span>Node.js</span></div></div><div class="project-links"><a href="https://festival-musica-nu.vercel.app/" target="_blank" rel="noreferrer" aria-label="Abrir demo de Festival de Música">Demo ↗</a><a href="https://github.com/JuanG0507/festival_musica" target="_blank" rel="noreferrer" aria-label="Ver código de Festival de Música en GitHub">Código ↗</a></div></div>
+          </article>
+          <article class="project-card" data-category="web">
+            <div class="project-visual"><img class="project-shot" src="assets/projects/store-developers.jpg" alt="Captura de la tienda en línea Store Developers y su catálogo" loading="lazy" decoding="async"></div>
+            <div class="project-info"><div><p class="project-type">Tienda en línea</p><h3>Store Developers</h3><p class="project-desc">Interfaz de tienda en línea con navegación clara y presentación de productos.</p><div class="tech-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Node.js</span></div></div><div class="project-links"><a href="https://store-developers.vercel.app/" target="_blank" rel="noreferrer">Demo ↗</a><a href="https://github.com/JuanG0507/Store_Developers" target="_blank" rel="noreferrer">Código ↗</a></div></div>
+          </article>
+          <article class="project-card" data-category="web">
+            <div class="project-visual"><img class="project-shot" src="assets/projects/coffee-blog.jpg" alt="Captura del Blog Coffee with Guti con su portada y contenido sobre café" loading="lazy" decoding="async"></div>
+            <div class="project-info"><div><p class="project-type">Blog · Contenido editorial</p><h3>Blog Coffee with Guti</h3><p class="project-desc">Blog sobre café con contenidos de recetas, cursos y preparación, organizado para facilitar la lectura.</p><div class="tech-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div><div class="project-links"><a href="https://blog-coffee-with-guti.vercel.app/" target="_blank" rel="noreferrer">Demo ↗</a><a href="https://github.com/JuanG0507/blog-coffee-with-guti" target="_blank" rel="noreferrer">Código ↗</a></div></div>
+          </article>
+          <article class="project-card" data-category="web">
+            <div class="project-visual"><img class="project-shot" src="assets/projects/store-3d.jpg" alt="Captura de Web 3D Store mostrando el carrusel de productos" loading="lazy" decoding="async"></div>
+            <div class="project-info"><div><p class="project-type">Tienda web · Interacción</p><h3>Web 3D Store</h3><p class="project-desc">Carrusel de imágenes para una tienda web, centrado en la interacción y la composición visual.</p><div class="tech-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div><div class="project-links"><a href="https://web-3-d-store.vercel.app/" target="_blank" rel="noreferrer">Demo ↗</a><a href="https://github.com/JuanG0507/WEB_3D_STORE." target="_blank" rel="noreferrer">Código ↗</a></div></div>
+          </article>
+          <article class="project-card project-python" data-category="python">
+            <div class="project-visual"><img class="project-shot" src="assets/projects/gutistore-consola.svg" alt="Vista representativa de la consola GUTISTORE, con el cálculo de una compra y su descuento" loading="lazy" decoding="async"></div>
+            <div class="project-info"><div><p class="project-type">Aplicación de consola</p><h3>GUTISTORE · Calculadora</h3><p class="project-desc">Calcula subtotal, descuento y total en COP; valida los datos ingresados y usa Decimal para operaciones monetarias.</p><div class="tech-list"><span>Python</span><span>Decimal</span><span>Validación</span></div></div><div class="project-links"><a href="https://github.com/JuanG0507/gutistore-calculadora" target="_blank" rel="noreferrer">Código ↗</a></div></div>
+          </article>
+        </div>
+        <div class="all-projects"><span>¿Quieres explorar más?</span><a href="https://github.com/JuanG0507?tab=repositories" target="_blank" rel="noreferrer">Ver mis repositorios en GitHub <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="experience-section section-light" id="experiencia">
+      <div class="container">
+        <div class="experience-heading"><h2>Experiencia<br><em>profesional.</em></h2><p class="section-intro">Mi recorrido combina desarrollo frontend con atención al cliente, ventas y operación de inventarios.</p></div>
+        <div class="experience-list">
+          <article class="experience-entry"><div class="experience-period">ENE 2026 — ACTUALIDAD</div><div><h3>Desarrollador frontend independiente</h3><p class="experience-company">Logic Metric · Remoto</p><p>Desarrollo frontend y trabajo con JavaScript, HTML, CSS, React, Node.js, Python y Git.</p></div></article>
+          <article class="experience-entry"><div class="experience-period">FEB 2025 — FEB 2026</div><div><h3>Asesor externo</h3><p class="experience-company">FACMAC S.A.S.</p><p>Atención al cliente, ventas, seguimiento comercial y apoyo en la administración de tienda por temporada.</p></div></article>
+          <article class="experience-entry"><div class="experience-period">SEP 2021 — ENE 2023</div><div><h3>Encargado de almacén</h3><p class="experience-company">Gestión Logística SyM S.A.S.</p><p>Control de inventario, recepción y despacho de mercancía, manejo de archivo y apoyo a ventas.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="profile-section section-dark" id="perfil">
+      <div class="container profile-layout">
+        <div class="profile-main"><h2>Aprender.<br><em>Construir.</em><br>Compartir.</h2><p class="profile-summary">Estudio Ingeniería de Software y desarrollo proyectos web y herramientas en Python. Mi experiencia en servicio al cliente, ventas y logística también me aporta organización, comunicación y seguimiento.</p><a class="button button-outline" href="https://github.com/JuanG0507" target="_blank" rel="noreferrer">Explorar mi GitHub <span aria-hidden="true">↗</span></a></div>
+        <div class="profile-details">
+          <div class="detail-block education-block"><p class="detail-label">FORMACIÓN</p><div><h3>Ingeniería de Software</h3><p>Corporación Universitaria Iberoamericana · 2022 — Actualidad</p></div><div><h3>Tecnólogo en Gestión Empresarial</h3><p>SENA · 2018 — 2020</p></div></div>
+          <div class="detail-block"><p class="detail-label">TECNOLOGÍAS</p><div class="skill-cloud"><span>JavaScript</span><span>HTML5</span><span>CSS3</span><span>Python</span><span>Java</span><span>Laravel</span><span>Power BI</span><span>Git</span><span>Node.js</span><span>React</span></div></div>
+          <div class="detail-block"><p class="detail-label">APRENDIZAJE ACTUAL</p><h3>Frontend y backend web</h3><p>Fortaleciendo React y los fundamentos de backend con Node.js.</p></div>
+          <p class="profile-note">Disponible para oportunidades junior, colaboraciones y proyectos freelance.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section-lime" id="contacto"><div class="container contact-layout"><div><h2>¿Creamos algo<br><em>bueno juntos?</em></h2></div><div class="contact-side"><p>Estoy abierto a oportunidades junior, colaboraciones y proyectos freelance. Si quieres conversar, escríbeme.</p><a class="contact-email" href="mailto:juanjose200013@gmail.com">juanjose200013@gmail.com <span aria-hidden="true">↗</span></a><div class="contact-links"><a href="https://www.linkedin.com/in/juan-jose-gutierrez-5b166b252/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/JuanG0507" target="_blank" rel="noreferrer">GitHub ↗</a></div></div><footer class="site-footer"><a class="footer-brand" href="#inicio">JG<span>.</span></a><span>Hecho con curiosidad y café · 2026</span><a href="#inicio">Volver arriba ↑</a></footer></div></section>
+  </main>
+</body>
+</html>
