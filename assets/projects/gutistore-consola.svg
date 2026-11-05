@@ -1,1 +1,20 @@
-²ø1šYì†Ûiÿü0Ãè®öÓM?²ø0‰Ûa÷M!z(!·9¾'°Œ
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="405" viewBox="0 0 900 405" role="img" aria-labelledby="title desc">
+  <title id="title">GUTISTORE Calculadora en consola</title>
+  <desc id="desc">Ejemplo representativo de una compra de dos camisetas por 45.000 pesos cada una y un descuento del diez por ciento.</desc>
+  <rect width="900" height="405" fill="#111b19"/>
+  <rect x="25" y="25" width="850" height="355" rx="12" fill="#172724" stroke="#43594e" stroke-width="2"/>
+  <path d="M37 25h826a12 12 0 0 1 12 12v39H25V37a12 12 0 0 1 12-12Z" fill="#20342e"/>
+  <circle cx="53" cy="50" r="7" fill="#e27c62"/><circle cx="77" cy="50" r="7" fill="#e6c45b"/><circle cx="101" cy="50" r="7" fill="#a8cf6a"/>
+  <text x="450" y="56" fill="#b6c6ba" text-anchor="middle" font-family="monospace" font-size="16">GUTISTORE Â· Calculadora de compras</text>
+  <g font-family="monospace" font-size="18">
+    <text x="65" y="112" fill="#d5f36a">$ python Compra.py</text>
+    <text x="65" y="153" fill="#f3f0e8">================================</text>
+    <text x="65" y="179" fill="#f3f0e8">       GUTISTORE | Compras</text>
+    <text x="65" y="205" fill="#f3f0e8">================================</text>
+    <text x="65" y="243" fill="#c4d0c6">Producto: Camiseta</text>
+    <text x="65" y="269" fill="#c4d0c6">Precio por unidad: 45.000 COP</text>
+    <text x="65" y="295" fill="#c4d0c6">Cantidad: 2 Â· Descuento: 10%</text>
+    <text x="65" y="331" fill="#d5f36a">Total a pagar: 81.000 COP</text>
+  </g>
+  <text x="833" y="352" fill="#82968a" text-anchor="end" font-family="monospace" font-size="12">VISTA REPRESENTATIVA DE CONSOLA</text>
+</svg>
